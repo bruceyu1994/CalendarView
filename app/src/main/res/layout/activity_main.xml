@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bruceyu.calendarview.MainActivity">
+
+    <com.bruceyu.library.DayPickerView
+        android:id="@+id/dpvCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:colorCurrentDay="@color/colorPrimary"
+        app:colorInValidDaysBg="#727272"
+        app:colorInValidDaysText="#FFFFFF"
+        app:colorPreviousDayText="#727272"
+        app:colorWeekText="#727272"
+        app:enableAfterDay="false"
+        app:enablePreviousDay="true"
+        app:textSizeDay="14sp"
+        app:textSizeWeek="14sp"
+        app:textSizeYearMonth="16sp">
+
+    </com.bruceyu.library.DayPickerView>
+
+</android.support.constraint.ConstraintLayout>

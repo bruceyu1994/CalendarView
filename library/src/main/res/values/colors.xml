@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!-- 日历定义的一些颜色 -->
+    <color name="normal_day">#000</color>
+    <color name="tag_text">#fff</color>
+    <color name="selected_day_background">#4BA0E8</color>
+    <color name="selected_day_text">#FFFFFF</color>
+    <color name="selected_range_text">#1C86EE</color>
+    <color name="invalid_day_background">#c0c0c0</color>
+</resources>
